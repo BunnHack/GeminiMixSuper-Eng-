@@ -165,7 +165,7 @@ Support sending multiple pictures in the same message：
       "content": [
         {
           "type": "text",
-          "text": "比较这两张图片的区别"
+          "text": "Compare the differences between these two pictures"
         },
         {
           "type": "image_url",
@@ -194,9 +194,9 @@ DeepSeek-R1 Supports models with various parameter sizes, ranging from 7B to 671
 
 ```env
 DEEPSEEK_R1_MODEL=deepseek-ai/DeepSeek-R1-7B
-# 或
+# OR
 DEEPSEEK_R1_MODEL=deepseek-ai/DeepSeek-R1-67B
-# 或
+# OR
 DEEPSEEK_R1_MODEL=deepseek-ai/DeepSeek-R1-671B
 ```
 
@@ -259,7 +259,7 @@ GoogleSearch_Send_PROMPT=your-prompt
   "messages": [
     {
       "role": "user",
-      "content": "请告诉我最近的 AI 发展情况"
+      "content": "Please tell me about recent AI developments"
     }
   ],
   "stream": true
@@ -293,4 +293,4 @@ System Will：
 - [ ] Optimize image recognition performance
 - [ ] Add more error handling mechanisms
 
-Original Repo:https://github.com/lioensky/GeminiMixSuper
+Original Repo:https://github.com/lioensky/GeminiMixSuper (Chinese)
